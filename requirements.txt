@@ -1,0 +1,8 @@
+pypdf
+pydantic
+langchain-openai
+python-dotenv
+langchain-groq
+streamlit
+universal-extractor-backend
+pandas
