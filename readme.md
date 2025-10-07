@@ -4,26 +4,26 @@ An **AI-powered Streamlit application** that extracts structured data from **PDF
 
 ---
 
-## 🚀 Features
+## Features
 
-- 📄 Supports **PDFs and Image files (JPG, PNG, JPEG)**
-- 🧠 Choose between multiple **LLMs**:
+- Supports **PDFs and Image files (JPG, PNG, JPEG)**
+- Choose between multiple **LLMs**:
   - GPT-4o, GPT-5 (OpenAI)
   - Offline Vision LLM via **Ollama LLaVA**
-- 🏦 Handles diverse document types:
+- Handles diverse document types:
   - Invoices / Bills  
   - Bank Cheques  
   - Identity Documents  
   - Reports / Certificates  
   - Generic text documents
-- 🧩 Dynamic **schema definition** (Pydantic-style)
-- 💾 **Excel download** of extracted structured data
-- 🧱 **Offline + Online** modes supported
-- 🧑‍💻 Developer-friendly modular backend
+- Dynamic **schema definition** (Pydantic-style)
+- **Excel download** of extracted structured data
+- **Offline + Online** modes supported
+- Developer-friendly modular backend
 
 ---
 
-## 🧩 Project Structure
+## Project Structure
 
 📂 universal_extractor/
 ├── app.py # Streamlit frontend
@@ -35,7 +35,7 @@ An **AI-powered Streamlit application** that extracts structured data from **PDF
 
 ---
 
-## 🧰 Setup Instructions
+## Setup Instructions
 
 ### Clone the Repository
 
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 ### Run the App
 streamlit run app.py
 
-⚙️ Configuration
+Configuration
 
 Add your OpenAI API key in a .env file:
 
@@ -59,9 +59,9 @@ Or manually input it in the Streamlit sidebar.
 
 ### Supported Models
 Mode	Model	Description
-🔹 Online	GPT-4o / GPT-5	High-quality structured extraction
-🔹 Offline	Ollama LLaVA	Vision-based local model for image docs
-🧾 Example Use Cases
+Online	GPT-4o / GPT-5	High-quality structured extraction
+Offline	Ollama LLaVA	Vision-based local model for image docs
+Example Use Cases
 Document Type	Extracted Fields
 Invoice / Bill	Product code, description, quantity, rate, amount, taxes
 Bank Cheque	Account name, cheque no., amount, handwritten notes
@@ -75,7 +75,7 @@ Expertise in LLMs, MLOps, and AI Applications
 🌐 LinkedIn
  | 📧 aceraayush@gmail.com
 
-⭐ Future Enhancements
+Future Enhancements
 
 RAG-based document context retrieval
 
